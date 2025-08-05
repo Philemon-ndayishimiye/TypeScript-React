@@ -12,3 +12,8 @@ export interface ButtonProperties {
   type: "button" | "submit" | "reset";
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
+
+export interface FormError {
+  email?: string;
+  password?: string;
+}
